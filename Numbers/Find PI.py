@@ -13,6 +13,7 @@ import decimal
 def askForInt():
     maxPrecision: int = 15
 
+
     while True:
         try:
             n = int(input('''Please, type to which precision you want to calculate Pi:'''))
